@@ -1,0 +1,525 @@
+{
+  "TestSuite": "Editmode",
+  "Date": 1601713623112,
+  "Player": {
+    "Development": true,
+    "ScreenWidth": 1366,
+    "ScreenHeight": 768,
+    "ScreenRefreshRate": 60,
+    "Fullscreen": false,
+    "Vsync": 1,
+    "AntiAliasing": 2,
+    "Batchmode": false,
+    "RenderThreadingMode": "MultiThreaded",
+    "GpuSkinning": false,
+    "Platform": "WindowsEditor",
+    "ColorSpace": "Gamma",
+    "AnisotropicFiltering": "ForceEnable",
+    "BlendWeights": "Unlimited",
+    "GraphicsApi": "Direct3D11",
+    "ScriptingBackend": "Mono2x",
+    "AndroidTargetSdkVersion": "AndroidApiLevelAuto",
+    "AndroidBuildSystem": "Gradle",
+    "BuildTarget": "StandaloneWindows64",
+    "StereoRenderingPath": "MultiPass"
+  },
+  "Hardware": {
+    "OperatingSystem": "Windows 10  (10.0.0) 64bit",
+    "DeviceModel": "Inspiron 3543 (Dell Inc.)",
+    "DeviceName": "KWA",
+    "ProcessorType": "Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz",
+    "ProcessorCount": 4,
+    "GraphicsDeviceName": "NVIDIA GeForce 840M",
+    "SystemMemorySizeMB": 8103
+  },
+  "Editor": {
+    "Version": "2020.2.0b2",
+    "Branch": "trunk",
+    "Changeset": "90b2443a8df1",
+    "Date": 1598948737
+  },
+  "Dependencies": [
+    "com.unity.2d.animation@5.0.1",
+    "com.unity.2d.pixel-perfect@4.0.1",
+    "com.unity.2d.psdimporter@4.0.1",
+    "com.unity.2d.sprite@1.0.0",
+    "com.unity.2d.spriteshape@5.0.1",
+    "com.unity.2d.tilemap@1.0.0",
+    "com.unity.collab-proxy@1.3.9",
+    "com.unity.ide.rider@2.0.7",
+    "com.unity.ide.visualstudio@2.0.2",
+    "com.unity.ide.vscode@1.2.1",
+    "com.unity.test-framework@1.1.16",
+    "com.unity.textmeshpro@3.0.1",
+    "com.unity.timeline@1.4.2",
+    "com.unity.ugui@1.0.0",
+    "com.unity.modules.ai@1.0.0",
+    "com.unity.modules.androidjni@1.0.0",
+    "com.unity.modules.animation@1.0.0",
+    "com.unity.modules.assetbundle@1.0.0",
+    "com.unity.modules.audio@1.0.0",
+    "com.unity.modules.cloth@1.0.0",
+    "com.unity.modules.director@1.0.0",
+    "com.unity.modules.imageconversion@1.0.0",
+    "com.unity.modules.imgui@1.0.0",
+    "com.unity.modules.jsonserialize@1.0.0",
+    "com.unity.modules.particlesystem@1.0.0",
+    "com.unity.modules.physics@1.0.0",
+    "com.unity.modules.physics2d@1.0.0",
+    "com.unity.modules.screencapture@1.0.0",
+    "com.unity.modules.terrain@1.0.0",
+    "com.unity.modules.terrainphysics@1.0.0",
+    "com.unity.modules.tilemap@1.0.0",
+    "com.unity.modules.ui@1.0.0",
+    "com.unity.modules.uielements@1.0.0",
+    "com.unity.modules.umbra@1.0.0",
+    "com.unity.modules.unityanalytics@1.0.0",
+    "com.unity.modules.unitywebrequest@1.0.0",
+    "com.unity.modules.unitywebrequestassetbundle@1.0.0",
+    "com.unity.modules.unitywebrequestaudio@1.0.0",
+    "com.unity.modules.unitywebrequesttexture@1.0.0",
+    "com.unity.modules.unitywebrequestwww@1.0.0",
+    "com.unity.modules.vehicles@1.0.0",
+    "com.unity.modules.video@1.0.0",
+    "com.unity.modules.vr@1.0.0",
+    "com.unity.modules.wind@1.0.0",
+    "com.unity.modules.xr@1.0.0",
+    "com.unity.test-framework.performance@2.3.1-preview"
+  ],
+  "Results": [
+    {
+      "Name": "AoS_vs_SoA.Person_AoS_References_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            1455.6224000000002,
+            1418.5065000000004,
+            1473.5294999999996,
+            1504.7708000000002,
+            1476.5298000000003,
+            1449.5365999999995,
+            1458.559299999999,
+            1412.7423999999992,
+            1450.0963000000011
+          ],
+          "Min": 1412.7423999999992,
+          "Max": 1504.7708000000002,
+          "Median": 1455.6224000000002,
+          "Average": 1455.5437333333332,
+          "StandardDeviation": 26.803353208548884,
+          "Sum": 13099.8936
+        }
+      ]
+    },
+    {
+      "Name": "AoS_vs_SoA.Person_AoS_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            842.09089999999969,
+            886.18100000000049,
+            861.59810000000016,
+            845.3809999999994,
+            867.7488000000003,
+            888.5697999999993,
+            851.92069999999876,
+            840.83599999999933,
+            906.58139999999912
+          ],
+          "Min": 840.83599999999933,
+          "Max": 906.58139999999912,
+          "Median": 861.59810000000016,
+          "Average": 865.65641111111063,
+          "StandardDeviation": 22.143805284821788,
+          "Sum": 7790.9076999999961
+        }
+      ]
+    },
+    {
+      "Name": "AoS_vs_SoA.Persons_SoA_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            207.50379999999996,
+            203.81320000000017,
+            214.80580000000009,
+            214.02029999999991,
+            210.97499999999991,
+            211.28790000000004,
+            209.33349999999996,
+            207.9726999999998,
+            210.20309999999972
+          ],
+          "Min": 203.81320000000017,
+          "Max": 214.80580000000009,
+          "Median": 210.20309999999972,
+          "Average": 209.99058888888885,
+          "StandardDeviation": 3.1792725556658019,
+          "Sum": 1889.9152999999997
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_4_Flase_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            7894.3771000000015,
+            7776.6576000000023,
+            7820.1798999999955,
+            7779.5332999999955,
+            8047.8413,
+            7797.7599999999948,
+            7800.6328000000067,
+            7800.7909999999974,
+            7892.2685999999958
+          ],
+          "Min": 7776.6576000000023,
+          "Max": 8047.8413,
+          "Median": 7800.7909999999974,
+          "Average": 7845.5601777777774,
+          "StandardDeviation": 82.691729313205443,
+          "Sum": 70610.0416
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_4_True_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            7508.6182000000008,
+            7393.2717999999986,
+            7398.4575000000041,
+            7414.1347000000023,
+            7515.8706999999995,
+            7417.3312000000005,
+            7396.5951000000059,
+            7642.7353999999905,
+            7698.6462000000029
+          ],
+          "Min": 7393.2717999999986,
+          "Max": 7698.6462000000029,
+          "Median": 7417.3312000000005,
+          "Average": 7487.2956444444462,
+          "StandardDeviation": 108.1709528630073,
+          "Sum": 67385.660800000012
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_8_Flase_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            7445.0456000000013,
+            7329.8876000000018,
+            7347.9098000000013,
+            7324.7237000000023,
+            7472.3456000000006,
+            7322.2780999999959,
+            7340.8637000000017,
+            7321.3313000000053,
+            7461.6373000000021
+          ],
+          "Min": 7321.3313000000053,
+          "Max": 7472.3456000000006,
+          "Median": 7340.8637000000017,
+          "Average": 7374.0025222222239,
+          "StandardDeviation": 61.465028901929742,
+          "Sum": 66366.022700000016
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_8_True_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            7849.7364999999991,
+            7708.1867999999995,
+            7724.3004,
+            7719.2936999999947,
+            7837.3202000000019,
+            7788.842899999996,
+            7715.4759999999951,
+            7719.1687000000093,
+            7897.8521000000037
+          ],
+          "Min": 7708.1867999999995,
+          "Max": 7897.8521000000037,
+          "Median": 7724.3004,
+          "Average": 7773.3530333333347,
+          "StandardDeviation": 67.927321660794277,
+          "Sum": 69960.17730000001
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_False_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            7797.5359000000026,
+            7820.3958999999995,
+            7795.9679000000033,
+            7820.1537000000026,
+            7807.5152999999991,
+            7795.4763000000021,
+            7807.3177,
+            7830.60560000001,
+            7809.819399999993
+          ],
+          "Min": 7795.4763000000021,
+          "Max": 7830.60560000001,
+          "Median": 7807.5152999999991,
+          "Average": 7809.420855555557,
+          "StandardDeviation": 11.591841009580243,
+          "Sum": 70284.787700000015
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_Half_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            7487.534,
+            7513.4549000000006,
+            7534.4182,
+            7492.6106999999975,
+            7520.4429999999993,
+            7519.9917999999961,
+            7527.3174,
+            7548.4088000000047,
+            7848.1975999999995
+          ],
+          "Min": 7487.534,
+          "Max": 7848.1975999999995,
+          "Median": 7520.4429999999993,
+          "Average": 7554.7084888888894,
+          "StandardDeviation": 105.29708772452096,
+          "Sum": 67992.376400000008
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_Random_Byte_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            10609.105800000001,
+            10624.913999999997,
+            10637.556899999996,
+            10621.979100000004,
+            10634.972000000009,
+            10642.87019999999,
+            10622.4473,
+            10629.964800000002,
+            10620.951000000001
+          ],
+          "Min": 10609.105800000001,
+          "Max": 10642.87019999999,
+          "Median": 10624.913999999997,
+          "Average": 10627.195677777778,
+          "StandardDeviation": 9.6746536274215664,
+          "Sum": 95644.7611
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_Random_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            10541.532200000001,
+            10591.613100000002,
+            10609.772799999999,
+            10557.282699999996,
+            10591.566200000001,
+            10581.497199999998,
+            10811.994699999996,
+            10538.890999999989,
+            10603.409799999994
+          ],
+          "Min": 10538.890999999989,
+          "Max": 10811.994699999996,
+          "Median": 10591.566200000001,
+          "Average": 10603.062188888885,
+          "StandardDeviation": 77.764514969424539,
+          "Sum": 95427.559699999969
+        }
+      ]
+    },
+    {
+      "Name": "Branches.Sum_True_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            7242.3224999999984,
+            7244.5050000000047,
+            7220.5506000000023,
+            7217.3829000000042,
+            7232.6103,
+            7215.8028999999951,
+            7219.6899000000049,
+            7265.8815000000031,
+            7217.5651000000071
+          ],
+          "Min": 7215.8028999999951,
+          "Max": 7265.8815000000031,
+          "Median": 7220.5506000000023,
+          "Average": 7230.7011888888919,
+          "StandardDeviation": 16.203822141940933,
+          "Sum": 65076.310700000024
+        }
+      ]
+    },
+    {
+      "Name": "Cache.Sum_Con_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            0.87626636363636357,
+            0.86585727272727286,
+            0.87486272727272663,
+            0.861548181818182,
+            0.86848818181818144,
+            0.93693000000000048,
+            0.85364,
+            0.859203636363636,
+            0.86464636363636438
+          ],
+          "Min": 0.85364,
+          "Max": 0.93693000000000048,
+          "Median": 0.86585727272727286,
+          "Average": 0.87349363636363642,
+          "StandardDeviation": 0.023419940170984529,
+          "Sum": 7.8614427272727276
+        }
+      ]
+    },
+    {
+      "Name": "Cache.Sum_Skip_Test",
+      "Version": "1",
+      "Categories": [
+        "Performance"
+      ],
+      "SampleGroups": [
+        {
+          "Name": "Time",
+          "Unit": 2,
+          "IncreaseIsBetter": false,
+          "Samples": [
+            7.1290230769230769,
+            7.4780846153846179,
+            7.2519769230769251,
+            7.8937846153846181,
+            7.5697538461538443,
+            7.3746384615384653,
+            7.1923384615384629,
+            7.2229615384615391,
+            7.2462615384615328
+          ],
+          "Min": 7.1290230769230769,
+          "Max": 7.8937846153846181,
+          "Median": 7.2519769230769251,
+          "Average": 7.3732025641025656,
+          "StandardDeviation": 0.22763466745587155,
+          "Sum": 66.358823076923088
+        }
+      ]
+    }
+  ]
+}

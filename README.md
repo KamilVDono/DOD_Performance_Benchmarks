@@ -10,7 +10,9 @@ ___
 Project uses Unity engine and Performance Testing Extension for Unity Test Runner for benchmarking purposes.
 If you want share your results please contact me at: kamilvdono@gmail.com or [in - Kamil Socha](https://www.linkedin.com/in/kamil-socha/)
 ___
+For performance reports go to [Results](Results/) directory
+___
 ## TODO:
-- [ ] Share my results
+- [x] Share my results
 - [ ] Visualize results
 - [ ] Gather results from multiple machines
