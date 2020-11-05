@@ -11,8 +11,12 @@ Project uses Unity engine and Performance Testing Extension for Unity Test Runne
 If you want share your results please contact me at: kamilvdono@gmail.com or [in - Kamil Socha](https://www.linkedin.com/in/kamil-socha/)
 ___
 For performance reports go to [Results](Results/) directory
+Results charts:
+![AoS vs SoA](./Results/AoS_vs_SoA.png)
+![CPU Cache](./Results/Cache.png)
+![Branch prediction and miss](./Results/Branches.png)
 ___
 ## TODO:
 - [x] Share my results
-- [ ] Visualize results
-- [ ] Gather results from multiple machines
+- [x] Visualize results
+- [x] Gather results from multiple machines
